@@ -1,0 +1,9 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11.4
+build:
+  requirementsPath: requirements.txt
+run:
+  command: python manage.py runserver
