@@ -6,4 +6,4 @@ meta:
 build:
   requirementsPath: requirements.txt
 run:
-  command: python manage.py runserver
+  command: python manage.py migrate && gunicorn --bind 0.0.0.0:80 newspaper_project.wsgi
