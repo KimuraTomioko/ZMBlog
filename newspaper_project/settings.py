@@ -25,7 +25,7 @@ SECRET_KEY = '4ki$=h&!z^_+&q@r@*w13&!l=7+%a&bfl25#8!*@c7$qb&n4=$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zmblog.site', 'www.zmblog.site', 'localhost', '127.0.0.1']
 
 
 # Application definition
